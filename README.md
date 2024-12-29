@@ -1,22 +1,22 @@
-#Crypto Poker Platform
+# Crypto Poker Platform
 
 Uma plataforma personalizada para gerenciar fichas de poker utilizando a moeda fictícia Crypto Poker. Desenvolvida para uso pessoal e sem envolver dinheiro real, é ideal para apostas entre amigos durante partidas de poker.
 
-###Funcionalidades
+### Funcionalidades
 
 - Comprar Fichas de Poker: Adquira fichas de maneira rápida e simples para suas partidas.
 - Trocar Fichas por Crypto Poker: Converta fichas em Crypto Poker para apostas personalizadas.
 - Transferir Crypto Poker para Amigos: Envie Crypto Poker instantaneamente para outros jogadores.
 - Comprar Crypto Poker: Adquira mais Crypto Poker para ampliar suas apostas fictícias.
 
-###Tecnologias Utilizadas
+### Tecnologias Utilizadas
 
 - React: Biblioteca JavaScript para criar interfaces de usuário dinâmicas.
 - Styled Components: Estilização de componentes de forma elegante e modular.
 
-##Como Executar o Projeto
+## Como Executar o Projeto
 
-###Pré-requisitos
+### Pré-requisitos
 
 Certifique-se de ter o seguinte instalado:
 
@@ -34,10 +34,10 @@ src/
 └── App.js               # Arquivo principal
 
 
-##Contribuições
+## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
-##Licença
+## Licença
 
 Este projeto é licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
