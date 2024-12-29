@@ -4,8 +4,8 @@ import styled from "styled-components";
 export const CardStyles = styled.div`
 display: flex;
 flex-direction: column;
-width: 18%;
-height: 11vw;
+width: 330px;
+height: 320px;
 background: ${colors.surface};
 border-radius: 16px;
 align-items: center;

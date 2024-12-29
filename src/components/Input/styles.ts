@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const InputStyles = styled.input`
 display: flex;
 align-items: center;
-width: 100%;
+width: calc(100% - 160px);
 padding: 16px;
 border-radius: 8px;
 background: ${colors.surface};
