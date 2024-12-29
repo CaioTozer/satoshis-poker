@@ -24,16 +24,6 @@ Node.js (>= 14.x)
 
 NPM e Yarn
 
-##Estrutura do Projeto
-
-src/
-├── components/          # Componentes reutilizáveis da aplicação
-├── pages/               # Páginas principais
-├── styles/              # Estilização global e temas
-├── utils/               # Funções auxiliares
-└── App.js               # Arquivo principal
-
-
 ## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
