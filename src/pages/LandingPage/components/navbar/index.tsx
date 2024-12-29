@@ -6,7 +6,7 @@ import { useCallback } from "react";
 
 export default function Navbar() {
 
-    const handleScrollToSection = useCallback((id) => {
+    const handleScrollToSection = useCallback((id: string) => {
         const element = document.getElementById(id);
         if (element) {
             element.scrollIntoView({ behavior: "smooth" });
