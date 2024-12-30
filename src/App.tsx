@@ -7,7 +7,6 @@ function App() {
   //     TODO:
 
   //  - Deixar app responsivo
-  //  - Adicionar  FAQ
   //  - Adicionar animações
 
   return (

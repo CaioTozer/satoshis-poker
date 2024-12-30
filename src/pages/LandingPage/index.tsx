@@ -1,4 +1,5 @@
 import BuyCrypto from "./components/buyCrypto";
+import FAQ from "./components/faq";
 import Features from "./components/features";
 import Footer from "./components/footer";
 import LandingPageHome from "./components/landingPageHome";
@@ -15,6 +16,7 @@ export default function LandingPage() {
                 <OurCoin />
                 <Features />
                 <BuyCrypto />
+                <FAQ />
                 <Footer />
             </Container>
         </>
