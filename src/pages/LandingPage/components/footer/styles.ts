@@ -17,6 +17,13 @@ justify-content: center;
 gap: 10%;
 padding-block: 90px;
 width: 100%;
+
+@media (max-width: 900px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding-block: 40px;
+  }
 `
 
 export const Title = styled.h3`
@@ -30,6 +37,10 @@ width: 700px;
 height: 2px;
 margin-bottom: 8px;
 background-color: ${colors.surface};
+
+@media (max-width: 900px) {
+    width: 100%;
+  }
 `
 
 export const TextContainer = styled.div`
@@ -41,6 +52,11 @@ export const Text = styled.p`
 font-size: 16px;
 font-weight: 500;
 color: ${colors.text.support};
+
+@media (max-width: 900px) {
+    font-size: 14px;
+    text-align: center;
+  }
 `
 
 export const IconsContainer = styled.div`
@@ -53,4 +69,8 @@ export const Column = styled.div`
 display: flex;
 flex-direction: column;
 gap: 16px;
+
+@media (max-width: 900px) {
+    align-items: center;
+  }
 `

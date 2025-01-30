@@ -11,6 +11,12 @@ border-radius: 16px;
 align-items: center;
 justify-content: center;
 padding-inline: 24px;
+
+@media (max-width: 900px) {
+    width: calc(100% - 32px);
+    height: 200px;
+    gap: 22px;
+  }
 `
 
 export const Title = styled.h3`
