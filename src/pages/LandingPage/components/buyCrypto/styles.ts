@@ -9,6 +9,11 @@ padding-block: 42px;
 justify-content: center;
 align-items: center;
 background-color: ${colors.border};
+
+@media (max-width: 900px) {
+    padding-block: 24px;
+    gap: 16px;
+  }
 `
 
 export const Title = styled.h3`
@@ -19,4 +24,9 @@ color: ${colors.text.title};
 span {
     color: ${colors.primary};
 }
+
+@media (max-width: 900px) {
+    font-size: 24px;
+    text-align: center;
+  }
 `

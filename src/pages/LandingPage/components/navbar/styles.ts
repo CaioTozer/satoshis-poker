@@ -14,9 +14,9 @@ z-index: 5;
 
 @media (max-width: 900px) {
     height: max-content;
-    padding-inline: 32px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-inline: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     align-items: start;
   }
 `
@@ -71,7 +71,7 @@ user-select: none;
 }
 
 @media (max-width: 900px) {
-    font-size: 24px;
+    font-size: 14px;
   }
 `
 
