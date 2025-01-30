@@ -18,11 +18,30 @@ width: 100%;
 span {
     color: ${colors.warning};
 }
+
+@media (max-width: 900px) {
+    font-size: 28px;
+    text-align: center;
+  }
 `
 
 export const LandingHomeImage = styled.img`
 width: 40%;
 border-radius: 12px;
+
+@media (max-width: 900px) {
+    display: none;
+  }
+`
+
+export const LandingHomeImageMobile = styled.img`
+display: none;
+
+@media (max-width: 900px) {
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+  }
 `
 
 export const TitleInput = styled.div`
@@ -30,6 +49,12 @@ display: flex;
 flex-direction: column;
 gap: 24px;
 width: 35%;
+
+@media (max-width: 900px) {
+    width: 100%;
+    padding-inline: 16px;
+    padding-top: 48px;
+  }
 `
 
 export const Form = styled.div`

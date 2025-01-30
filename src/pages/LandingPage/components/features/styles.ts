@@ -14,6 +14,11 @@ width: 100%;
 align-items: center;
 justify-content: center;
 gap: 10%;
+
+@media (max-width: 900px) {
+    flex-direction: column;
+    gap: 32px;
+  }
 `
 
 export const Title = styled.h3`
@@ -25,6 +30,10 @@ span {
     color: ${colors.primary};
 }
 
+@media (max-width: 900px) {
+    font-size: 16px;
+    padding-inline: 16px;
+  }
 `
 
 export const Subtitle = styled.p`
@@ -37,4 +46,8 @@ width: 70%;
 span {
     color: ${colors.primary};
 }
+
+@media (max-width: 900px) {
+    font-size: 12px;
+  }
 `

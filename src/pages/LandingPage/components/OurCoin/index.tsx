@@ -1,4 +1,4 @@
-import { CoinImage, Container, Subtitle, TextContainer, Title } from "./styles";
+import { CoinImage, CoinImageMobile, Container, Subtitle, TextContainer, Title } from "./styles";
 import Image from "@/assets/LandingPage/CriptoPoker.webp"
 
 export default function OurCoin() {
@@ -7,6 +7,7 @@ export default function OurCoin() {
             <CoinImage src={Image} />
             <TextContainer>
                 <Title>Nossa Moeda: CryptoPoker</Title>
+                <CoinImageMobile src={Image} />
                 <Subtitle>
                     A Crypto Poker é uma moeda digital criada para tornar suas partidas de poker mais
                     divertidas e dinâmicas, sem envolver dinheiro real. Totalmente segura e virtual,
